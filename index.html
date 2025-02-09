@@ -1,42 +1,46 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>BAG Travel Planner for Wayanad</title>
-        <link rel="stylesheet" href="style.css">
-            <h1>BAG TRAVEL PLANNER -WAYANAD</h1>
-      
-       
-        <p>PLANNING A TRIP?
-            <p style="color: rgb(103, 21, 21);" >Our BAG Travel Planner helps you create a personalized travel itinerary based on your BUDGET,DESTINATION and DAYS.Simply enter your details and get a smart travel plan with budget-friendly recommendations.</p>
-    </head>
-    <body>
-        <div class="container">
-            <form id="tripform">
-                <label>
-                    Place:
-                </label>
-                <input type="text" id="Place" required >
-                <br>
-                <label>
-                    Budget:
-                </label>
-                <input type="number"
-                id="Budget" required>
-                <br>
-                <label>
-                    Days:
-               </label>
-               <input type="number" id="Days" required >
-               <br>
-               <button type="submit">Get plan</button>
-            </form>
-        </div>
-        <h3>Explore <span
-            id="destination"></span>
-                within <span id="tripDays"></span>Days
-        </h3>
-        <div id="itinerary"></div>
-        <script src="script.js"></script>
-    </body>
+
+<head>
+    <title>BAG Travel Planner for Wayanad</title>
+    <link rel="stylesheet" href="style.css">
+    <h1>BAG TRAVEL PLANNER -WAYANAD</h1>
+
+
+    <p>PLANNING A TRIP?
+    <p style="color: rgb(103, 21, 21);">Our BAG Travel Planner helps you create a personalized travel itinerary based on
+        your BUDGET,DESTINATION and DAYS.Simply enter your details and get a smart travel plan with budget-friendly
+        recommendations.</p>
+</head>
+
+<body>
+    <div class="container">
+        <form id="tripform">
+            <label>
+                Place:
+            </label>
+            <input type="text" id="Place" required>
+            <br>
+            <label>
+                Budget:
+            </label>
+            <input type="number" id="Budget" required>
+            <br>
+            <label>
+                Days:
+            </label>
+            <input type="number" id="Days" required>
+            <br>
+            <button type="submit">Get plan</button>
+        </form>
+    </div>
+    <h3>Explore <span id="destination"></span>
+        within <span id="tripDays"></span>Days
+    </h3>
+    <div id="itinerary"></div>
+    <script src="script.js"></script>
+   
+</body>
+
 
 </html>
