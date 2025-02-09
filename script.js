@@ -10,7 +10,7 @@ form.addEventListener("submit", function (event) {
     document.getElementById("destination").textContent = place;
     document.getElementById("tripDays").textContent = days;
 
-    fetch(`http://127.0.0.1:8080/itinerary?place=${place}&budget=${budget}&days=${days}`)
+    fetch(`https://backend-seven-teal-21.vercel.app/itinerary?place=${place}&budget=${budget}&days=${days}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
